@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Marathon Plan</title>
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Marathon">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="view"></main>
+
+  <nav class="tabs">
+    <button data-tab="week" class="active"><span>●</span>Woche</button>
+    <button data-tab="plan"><span>☰</span>Plan</button>
+    <button data-tab="stats"><span>▮</span>Statistik</button>
+    <button data-tab="settings"><span>⚙</span>Einstellungen</button>
+  </nav>
+
+  <dialog id="sheet"></dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
